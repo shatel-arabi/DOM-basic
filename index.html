@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1></h1>
+    <!-- article*3>h3{My new awsome blog-$}+p>lorem40 -->
+    <article>
+        <h3 id="head" >My new awsome blog-1</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur quisquam maxime iusto rerum quas non sunt enim nam cum, iste voluptatibus eos. Aperiam architecto qui eum a impedit mollitia, optio in deserunt! Nisi, minima ea. Aliquam provident eius fugiat pariatur.</p>
+    </article>
+    <article>
+        <h3  class="article-2">My new awsome blog-2</h3>
+        <p>Delectus mollitia iusto temporibus nesciunt ipsam modi corrupti nostrum sit, sint aspernatur consectetur eum asperiores facilis. Ipsa fugiat quaerat voluptatem sit magnam laboriosam assumenda corporis, sint qui minima ducimus sequi quasi unde iste itaque officia distinctio officiis! Molestiae, placeat vel.</p>
+    </article>
+    <article id="article-3">
+        <h3 >My new awsome blog-3</h3>
+        <p>Enim, neque. Soluta adipisci amet similique a veniam voluptatem quasi nulla ex, sit provident iusto porro aperiam ea earum vel voluptates illo voluptate neque cumque exercitationem corporis! Repellendus enim mollitia, dignissimos voluptate odio explicabo earum. Omnis adipisci praesentium a vero!</p>
+    </article>
+
+    <script>
+        console.log(254);
+    
+     
+
+  //new body 
+  const h3 = document.createElement('h3');
+  h3.innerText = 'this is new articles'
+  
+  const p = document.createElement('p');
+  p.innerText ='Enim, neque. Soluta adipisci amet similique a veniam voluptatem quasi nulla ex, sit provident iusto'
+
+
+  const newArticle = document.createElement('article');
+  newArticle.appendChild(h3);
+  newArticle.appendChild(p);
+  document.body.appendChild(newArticle);
+    </script>
+
+    <script src="./js/app.js"></script>
+</body>
+</html>
